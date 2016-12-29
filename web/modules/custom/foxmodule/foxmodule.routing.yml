@@ -1,0 +1,8 @@
+
+foxmodule.fox_controller_Fox:
+  path: '/foxmodule/hello/{name}'
+  defaults:
+    _controller: '\Drupal\foxmodule\Controller\FoxController::fox'
+    _title: 'FoxPage'
+  requirements:
+    _permission: 'access content'
